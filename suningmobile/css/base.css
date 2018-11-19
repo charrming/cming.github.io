@@ -1,0 +1,55 @@
+/*=========reset css===========*/
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif;
+    color: #333;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+input,textarea{
+    border:none;
+    outline:none;
+    resize: none;
+    -webkit-appearance: none;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    content: ' ';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+[class^="icon_"],[class*=" icon_"]{
+    background-repeat: no-repeat;
+    background-image: url(../images/sprites.png);
+    background-size: 200px 200px;
+}
+
+.m_r10{
+    margin-right: 10px;
+}
